@@ -1,3 +1,5 @@
+// Ahora voy a comentar algo
+
 const items = document.getElementById('items')
 const templateCard = document.getElementById('template-card').content
 const fragment = document.createDocumentFragment()
