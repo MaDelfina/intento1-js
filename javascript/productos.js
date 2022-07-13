@@ -1,5 +1,8 @@
 // Ahora voy a comentar algo
 
+import stock from '../data/stock.json'
+console.log(stock);
+
 const items = document.getElementById('items')
 const templateCard = document.getElementById('template-card').content
 const fragment = document.createDocumentFragment()
@@ -10,10 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const fetchData = async () => {
     try {
-        const res = await fetch('stock.json')
+        const res = await fetch('./stock.json')
         const data = await res.json()
         console.log(data);
-        // pintarCards(data)
     } catch (error) {
         console.log(error);
     }
