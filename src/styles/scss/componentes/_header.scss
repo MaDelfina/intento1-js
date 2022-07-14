@@ -144,3 +144,30 @@ p {
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	@extend %card;
 }
+
+
+// Luca Design ---------------------------------------
+
+header {
+	height: 100px;
+}
+
+.container-fluid.top-0 {
+	padding: 0;
+	margin: 0 auto;
+}
+
+.carousel-inner.w-100 {
+	margin-top: -180px;
+	height: 600px;
+}
+
+.navbar-brandt {
+	margin: 0;
+	padding: 0;
+}
+
+.nav.nav-pills.mb-3.py-3.container {
+	margin: auto;
+	padding: 0;
+}
